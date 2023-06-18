@@ -16,6 +16,7 @@ putchar(fig);
 if (fig != 9)
 {
 putchar(',');
+putchar(' ');
 }
 }
 putchar('\n');
