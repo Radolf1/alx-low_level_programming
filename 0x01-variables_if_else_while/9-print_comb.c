@@ -13,7 +13,7 @@ int fig;
 for (fig = '0'; fig <= '9'; fig++)
 {
 putchar(fig);
-if (fig != 9)
+if (fig != '9')
 {
 putchar(',');
 putchar(' ');
