@@ -13,13 +13,9 @@
 int main(void)
 {
 	char alpha;
-	/**int n;
-	 *srand(time(0));
-       	 *n = rand() - RAND_MAX / 2;
-	 */
 	/* your code goes there */
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
-	putchar(alpha);
-	putchar('\n');
-	return (0);
+for (alpha = 'a'; alpha <= 'z'; alpha++)
+putchar(alpha);
+putchar('\n');
+return (0);
 }
