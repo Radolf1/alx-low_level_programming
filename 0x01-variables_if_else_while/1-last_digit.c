@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - entry
  * Return: 0 (True)
@@ -9,12 +10,12 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n;
+	int n, end;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	int end = n % 10;
+	end = n % 10;
 
 	if (end > 5)
 	{
