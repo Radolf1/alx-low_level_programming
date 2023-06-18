@@ -23,7 +23,7 @@ if (num == '7' && num1 == '8')
 continue;
 putchar(',');
 putchar(' ');
-}	
+}
 }
 }
 }
