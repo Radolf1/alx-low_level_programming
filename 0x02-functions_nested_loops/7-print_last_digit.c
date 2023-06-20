@@ -11,7 +11,7 @@ int LastNum;
 LastNum = n % 10;
 if (LastNum < 0)
 {
-LastNum =LastNum * -1;
+LastNum = LastNum * -1;
 }
 _putchar(LastNum + '0');
 return (LastNum);
