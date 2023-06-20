@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - entry
+ * print_alphabet_x10 - entry
  * return: void
  */
 void print_alphabet_x10(void)
@@ -12,8 +12,9 @@ while (num < 10)
 for (c = 'a'; c <= 'z'; c++)
 {
 _putchar(c);
+}
 _putchar('\n');
 num++;
-}
+
 }
 }
