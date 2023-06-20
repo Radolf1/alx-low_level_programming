@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * _islower - check for lower characters
+ * _islower -it search for lower characters
  * @c: will be used
- * return: 1 for lower character and 0 for any character
+ * Return: 1 for lower character and 0 for any character
  */
+
 int _islower(int c)
 {
 if (c > 96 && c < 123)
