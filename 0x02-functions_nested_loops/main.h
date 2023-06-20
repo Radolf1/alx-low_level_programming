@@ -1,6 +1,6 @@
 int _putchar(char c);
 void print_alphabet(void);
-void print_alphabet_9x(void);
+void print_alphabet_10x(void);
 int islower(int c);
 int alpha(int c);
 int sign(int n);
