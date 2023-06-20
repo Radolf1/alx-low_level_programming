@@ -1,0 +1,13 @@
+int _putchar(char c);
+void print_alphabet(void);
+void print_alphabet_9x(void);
+int islower(int c);
+int alpha(int c);
+int sign(int n);
+int abs(int);
+int digit(int);
+void rad(void);
+void time(void);
+int add(int, int);
+int numbers_to_98(int n);
+void table(int n);
