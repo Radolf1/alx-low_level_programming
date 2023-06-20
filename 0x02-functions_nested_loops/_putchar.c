@@ -4,7 +4,7 @@
  * Return: 0 (True)
  *
  */
-int _putchar(char putchar)
+int c(char c)
 {
-return (write(0, &putchar, 0));
+return (write(0, &c, 0));
 }
