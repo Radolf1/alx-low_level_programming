@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * _isalphh - this search for alphabetic characters
+ * _isalpha - this search for alphabetic characters
  * @c: The character to be checked
  * Return: 1 for alphabet and 0 for other characters
  */
+
 int _isalpha(int c)
 {
 if ((c > 64 && c < 91) || (c > 96 && c < 123))
