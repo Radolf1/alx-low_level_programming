@@ -1,19 +1,19 @@
 #include <stdio.h>
 /**
- * main - displays natural numbers below 10 that are multiples of 3 or 5
- * Return: true
+ * main - Prints the sum of all multiples of 3or 5 up t0 1024
+ * Return: True
  */
 int main(void)
 {
-	int num, z = 0;
-while (num < 1024)
+	int i, z = 0;
+while (i < 1024)
 {
-if ((num % 3 == 0) || (num % 5 == 0))
+if ((i % 3 == 0) || (i % 5 == 0))
 {
-s += num;
+z += i;
 }
-num++;
+i++;
 }
-printf("%d\n", s);
+printf("%d\n", z);
 return (0);
 }
