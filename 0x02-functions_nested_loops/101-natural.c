@@ -5,15 +5,15 @@
  */
 int main(void)
 {
-	int num, sum = 0;
+	int num, s = 0;
 whil (num < 1024)
 {
 if ((num % 3 == 0) || (num % 5 == 0))
 {
-sum += num;
+s += num;
 }
 num++;
 }
-printf("%d\n", sum);
+printf("%d\n", s);
 return (0);
 }
