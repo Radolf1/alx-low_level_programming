@@ -5,8 +5,8 @@
  */
 int main(void)
 {
-	int num, s = 0;
-whil (num < 1024)
+	int num, z = 0;
+while (num < 1024)
 {
 if ((num % 3 == 0) || (num % 5 == 0))
 {
