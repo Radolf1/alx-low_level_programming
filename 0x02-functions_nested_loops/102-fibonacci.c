@@ -5,8 +5,8 @@
  */
 int main(void)
 {
-	int  x =0;
-	long y = 1, z =2;
+	int  x = 0;
+	long y = 1, z = 2;
 while (x < 50)
 {
 if (x == 0)
