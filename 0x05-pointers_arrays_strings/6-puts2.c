@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * puts2 - prints other characters of string
- * @atr: the string to test
+ * @str: the string to test
  * Return: void
  */
 void puts2(char *str)
